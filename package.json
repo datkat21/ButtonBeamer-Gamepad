@@ -9,7 +9,7 @@
     "dotenv": "^9.0.2",
     "express": "^4.17.1",
     "path": "^0.12.7",
-    "socket.io": "^3.1.2",
+    "socket.io": "^4.8.0",
     "unix-dgram": "^2.0.4"
   }
 }
