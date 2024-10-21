@@ -32,7 +32,7 @@ fi
 
 wii_bdaddr="$1"
 export PORT="$2"
-export OUTPUT_SOCKET_PATH="/tmp/wmemulator_input_$(uuid)"
+export OUTPUT_SOCKET_PATH="/tmp/wmemulator" #"/tmp/wmemulator_input_$(uuid)"
 
 function after_starting_emulator {
   await_user_confirmation 'After the connection is established, please press Enter.'

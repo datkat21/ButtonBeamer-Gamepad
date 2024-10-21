@@ -1,15 +1,18 @@
 {
-  "name": "ButtonBeamer",
+  "name": "button-beamer",
   "version": "1.0.0",
   "description": "Streams raw user input to another machine, aiding game streaming",
   "scripts": {
     "start": "node -r dotenv/config ."
+  },
+  "resolutions": {
+    "nan": "2.22.0"
   },
   "dependencies": {
     "dotenv": "^9.0.2",
     "express": "^4.17.1",
     "path": "^0.12.7",
     "socket.io": "^4.8.0",
-    "unix-dgram": "^2.0.4"
+    "unix-dgram": "2.0.6"
   }
 }
